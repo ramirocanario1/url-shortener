@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+:root {
+  --primary-color: rgb(240, 114, 76);
+  --focus-color: rgb(189, 90, 60);
+}
+
+html {
+  background-color: #FEFFFF;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  transition: color .2s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--focus-color)
+}
